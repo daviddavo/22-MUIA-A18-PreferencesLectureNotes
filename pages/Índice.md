@@ -1,4 +1,3 @@
-alias:: Contents
 icon:: 📜
 
 - Apuntes sobre agregación de preferencias de la asignatura [[Web Science]] del [Master Universitario en Inteligencia Artificial](http://www.dia.fi.upm.es/masteria/?q=es/MUIA) de la UPM (2022)

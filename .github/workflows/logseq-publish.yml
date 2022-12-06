@@ -11,7 +11,7 @@ jobs:
       - name: Logseq Build ⚙️
         uses: pengx17/logseq-publish@main
         with:
-          src: logseq 
+          src: . 
           dest: www
       - name: add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll

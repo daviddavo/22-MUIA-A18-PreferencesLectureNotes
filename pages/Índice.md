@@ -1,4 +1,3 @@
-public:: true
 alias:: Contents
 icon:: 📜
 

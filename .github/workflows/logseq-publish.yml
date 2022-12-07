@@ -13,12 +13,12 @@ jobs:
         with:
           src: . 
           dest: www
+          version: "nightly" # v0.8.12 I think
       - name: add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.9
         with:
-          version: "sha256:37f3e4de27a6ab1a4653f541c1ec3d99b5f97c0b363681e3b578d1af5316ee99" # v0.8.12 I think
           branch: gh-pages # The branch the action should deploy to.
           folder: www # The folder the action should deploy.
           clean: true

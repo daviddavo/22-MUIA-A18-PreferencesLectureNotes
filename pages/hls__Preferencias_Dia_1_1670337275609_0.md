@@ -25,3 +25,18 @@ file-path:: ../assets/Preferencias_Dia_1_1670337275609_0.pdf
   ls-type:: annotation
   id:: 638f5bb8-6d94-4c73-9e5b-3a50cf4916bb
   hl-color:: purple
+- Elección por mayoría simple: cada votante puede votar por un candidato y el candidato con mayor número de votos gana la elección.
+  ls-type:: annotation
+  hl-page:: 37
+  hl-color:: purple
+  id:: 638f8b38-f1db-4479-8222-520c22bb4757
+- Los votantes pueden votar por (aprobar) tantos candidatos como desee, pero no puede emitir más de un voto por cada candidato en una elección
+  ls-type:: annotation
+  hl-page:: 47
+  hl-color:: purple
+  id:: 638f8dcb-d578-47ec-8115-dc6e092ed2e6
+- El ganador es el candidato con mayor número de votos
+  ls-type:: annotation
+  hl-page:: 47
+  hl-color:: purple
+  id:: 638f8ddc-bf1c-4b79-b6ae-831f03db876e

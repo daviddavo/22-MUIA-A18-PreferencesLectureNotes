@@ -9,7 +9,7 @@ icon:: 📓
 	  **Nota**: Una buena manera de seguir los apuntes es hacer click en el .pdf para que se abran las diapositivas lado a lado, aunque no es necesario.
 	  #+END_NOTE.
 	- #+BEGIN_NOTE
-	  **Nota**: Cuando encuentres términos entre corchetes como [[Negociación]], puedes abrirlos en la misma página web reemplazando el contenido actual haciendo `Click`, o en un *sidebar* haciendo `Shift + Click`
+	  **Nota**: Cuando encuentres términos entre corchetes como [[Negociación]], puedes abrirlos en la misma página web reemplazando el contenido actual haciendo `Click`, o en un *sidebar* haciendo `Shift + Click`. Si mantienes el ratón encima se muestra una previsualización del contenido.
 	  #+END_NOTE
 	- ## 1. Introducción
 		- La agregación de preferencias nos permite resolver dilemas colectivos que no tienen solución, teniendo en cuenta las preferencias de los individuos que deben resolver el problema
@@ -18,18 +18,15 @@ icon:: 📓
 			- > ((638f5398-64df-4fa3-80c4-5ac217c4043c))
 			  > En agregación de preferencias, intentamos seguir la *flecha azul*
 		- Aun así, tras hacer la agregación, para conseguir mejor estabilidad sería mejor no llegar nunca a quedarse con solamente un punto, sino quedarse en un mínimo de una terna, como por ejemplo:
-		  collapsed:: true
 			- los tres poderes (legislativo, judicial y ejecutivo)
 			- los tres presupuestos que deben conseguirse para justificar una compra en cualquier organización burocrática
 			- las tres copias de cualquier parte o reclamación
 		- En la agregación de preferencias podemos hacer un paralelismo con la Ciencia de Datos.
-		  collapsed:: true
 			- ((638f5584-66ff-4183-9f60-30dd14915e46))
 			- De un conjunto de **datos** sin ordenar no podemos obtener ningún significado, pero aplicando operaciones que los *agrupen y ordenen* podemos distinguir patrones que nos dan **información**.
 			- De comprender las *relaciones* en la **información** surge el **conocimiento** del que podemos tomar decisiones. Entendiendo los *principios* del conocimiento, surge la **sabiduría**.
 		- > En resumen, las preferencias individuales se *agregan* para crear una preferencia de grupo $\rightarrow$ las piezas *individuales* forman el *colectivo*
-		- collapsed:: true
-		  #+BEGIN_WARNING
+		- #+BEGIN_WARNING
 		  Pero, ¿qué tipo de [[operador de agregación]] usamos? $\rightarrow$ surgen **dilemas**
 		  #+END_WARNING
 			- Puede que el operador sea más próximo de la minoría que de la mayoría
@@ -56,7 +53,7 @@ icon:: 📓
 		- #+BEGIN_NOTE
 		  En mi opinión, por estas razones es tan espinoso en la democracia el implementar sistemas de votación "más avanzados". Si son electrónicos se convierten en *cajas negras*, y si son más complejos es más difícil de entender y relatar los resultados
 		  #+END_NOTE
-			- Y ya ni hablemos de usar algun modelo basado en *redes neuronales* o *bayesianas*, pues perderíamos la narrativa y sería imposible averiguar por qué ha salido elegida esa decisión global.
+			- Y ya ni hablemos de usar algun modelo basado en *redes neuronales* o *bayesianas*, pues **perderíamos la narrativa** y sería imposible averiguar por qué ha salido elegida esa decisión global.
 	- ## 3. [[Votación]] vs [[Elección social]]
 		- En ambas cada agente $i$ tiene preferencias $\succeq_i$ (escala ordinal) sobre el conjunto de alternativas $X$
 			- Véase [[Marco formal de la negociación]]
@@ -64,7 +61,7 @@ icon:: 📓
 		- #+BEGIN_NOTE
 		  La [[votación]] es la punta del iceberg de la [[elección social]]
 		  #+END_NOTE
-		- Las principales diferencias son que la [[elección social]] es normativa e ideal, mientras que la [[Votación]] es más realista
+		- Las principales diferencias son que la [[elección social]] es normativa e ideal, mientras que la [[Votación]] es más realista (sencilla de implementar en la realidad)
 	- ## 3. [[Sistemas de votación]]
 		- De los distintos sistemas podemos observar que cada uno tiene sus problemas, y que surgen al tener más de dos elecciones posibles.
 		- En la [segunda vuelta](((638f8ced-5510-422e-8aee-68b566923a51))) se intenta paliar este problema en una segunda vuelta, pero en la primera el problema sigue ahí
@@ -142,7 +139,7 @@ icon:: 📓
 	- > La *idea* es crear un filtro humano que incentive las *propuestas interesantes*
 	- Aunque estas predicciones tienen alta precisión en DAOs grandes, tienen muy poco recall.
 	- Además, esa alta precisión también puede deberse a que al ser necesaria la mayoría absoluta si nadie apuesta por esa propuesta, sumado a la gran abstención, es muy difícil que se llegue al quórum. Es decir, si no se usa el mercado de predicción, es imposible que una propuesta sea aprobada. (Esta es mi hipótesis)
-	- Además, al final casi toda la discusión suele hacerse *off-chain* (en otros medios como Foros, Discord, grupos de Telegram...), y las pocas personas que tienen reputación hacen de *dictadores benevolentes* agregando las opiniones recabadas de esas discusiones
+	- Además, antes si quiera de hacer la propuesta suele haber una extensa discusión *off-chain* (en otros medios como Foros, Discord, grupos de Telegram...), y las pocas personas que tienen reputación hacen de *dictadores benevolentes* agregando las opiniones recabadas de esas discusiones
 	- > Por lo tanto, en las DAOs no se cumplen algunos axiomas del [[Teorema de Arrow]]
 		- No se cumple la [no trivialidad](((638f970c-f525-4b09-bed4-153b4d99b635))), pues tan sólo hay 3 alternativas, y en muchas ocasiones el voto de 2 personas ya forma el 50%
 		- Tampoco se cumple el principio de [no dictadura](((638f97cb-b912-4ea4-abb4-08dbb0759f27)))

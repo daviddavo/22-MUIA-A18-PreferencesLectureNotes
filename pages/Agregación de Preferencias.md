@@ -145,5 +145,6 @@ icon:: 📓
 	- Pero esto ya lo sabíamos, pues...
 		- ((638f9829-3613-45dd-90d8-286ae304fd2b))
 	- ### Más info
+		- https://dao-analyzer.science/daostack
 		- https://github.com/Grasia/dao-analyzer#publications
 		- https://medium.com/p2p-models/do-blockchainers-2-0-know-what-trust-is-aa65eee9d1d0

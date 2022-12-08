@@ -3,10 +3,7 @@ icon:: 📓
 
 - # Día 1
   id:: 638f52a9-5666-4bf2-a3ff-a95fbea033dc
-	- [Preferencias_Dia 1.pdf](../assets/Preferencias_Dia_1_1670337275609_0.pdf) #diapositivas
-	- #+BEGIN_NOTE
-	  **Nota**: Una buena manera de seguir los apuntes es hacer click en el .pdf para que se abran las diapositivas lado a lado, aunque no es necesario.
-	  #+END_NOTE.
+	- ![Preferencias_Dia 1.pdf](../assets/Preferencias_Dia_1_1670337275609_0.pdf) #diapositivas
 	- #+BEGIN_NOTE
 	  **Nota**: Cuando encuentres términos entre corchetes como [[Negociación]], puedes abrirlos en la misma página web reemplazando el contenido actual haciendo `Click`, o en un *sidebar* haciendo `Shift + Click`. Si mantienes el ratón encima se muestra una previsualización del contenido.
 	  #+END_NOTE
@@ -76,7 +73,7 @@ icon:: 📓
 		  Parece ser que no hay un método de agregación perfecto
 		  #+END_PINNED
 - # Día 2
-	- [Preferencias_Dia 2.pdf](../assets/Preferencias_Dia_2_1670353486220_0.pdf) #diapositivas
+	- ![Preferencias_Dia 2.pdf](../assets/Preferencias_Dia_2_1670353486220_0.pdf) #diapositivas
 	- ## 3. [[Elección social]] (cont.)
 		- > El [día anterior](((638f52a9-5666-4bf2-a3ff-a95fbea033dc))) se hizo una presentación y vimos intuitivamente los problemas de los distintos [[Sistemas de votación]] y de [[Elección social]]. Hoy se explicará *por qué* surgen dichos problemas.
 		- Dados los 6 axiomas del [[Teorema de Arrow]], el teorema concluye que:

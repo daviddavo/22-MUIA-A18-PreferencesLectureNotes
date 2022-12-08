@@ -1,7 +1,7 @@
 alias:: main, página principal
 icon:: 📓
 
-- # Día 1 {{renderer :wordcount_tlmvyif}}
+- # Día 1
   id:: 638f52a9-5666-4bf2-a3ff-a95fbea033dc
 	-
 	- ![Preferencias_Dia 1.pdf](../assets/Preferencias_Dia_1_1670337275609_0.pdf) #diapositivas
@@ -76,7 +76,7 @@ icon:: 📓
 		- #+BEGIN_PINNED
 		  Parece ser que no hay un método de agregación perfecto
 		  #+END_PINNED
-- # Día 2 {{renderer :wordcount_kccwhkctk}}
+- # Día 2
 	- ![Preferencias_Dia 2.pdf](../assets/Preferencias_Dia_2_1670353486220_0.pdf) #diapositivas
 	- ## 3. [[Elección social]] (cont.)
 		- > El [día anterior](((638f52a9-5666-4bf2-a3ff-a95fbea033dc))) se hizo una presentación y vimos intuitivamente los problemas de los distintos [[Sistemas de votación]] y de [[Elección social]]. Hoy se explicará *por qué* surgen dichos problemas.
